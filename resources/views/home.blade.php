@@ -15,6 +15,10 @@
                     @endif
 
                     <div class="">
+                        Me 
+                        <a href="{{ url('me')}}">Me options</a>
+                    </div>
+                    <div class="">
                         pros options
                         <a href="{{ url('pros') }}"> Pros Managment </a>
                     </div>

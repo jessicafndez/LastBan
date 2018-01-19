@@ -23,4 +23,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/login', array('uses' => 'auth\LoginController@doLogin'));
 
 Route::get('/pros', 'pros\ProsController@index');
+Route::get('/me', 'me\MeController@index');
 
